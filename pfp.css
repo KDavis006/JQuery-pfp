@@ -1,0 +1,83 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: sans-serif, monospace, serif;
+}
+
+body {
+ background: #000000;
+ overflow-y: none;
+}
+
+unselected {
+ background: #fafafa;
+ color: #333;
+}
+
+img {
+ position: absolute;
+ top: -30%;
+ left: 1%;
+ border-radius: 100px 100px 100px 100px;
+ width: 12.5rem;
+ height: 12.5rem;
+ opacity: 0;
+}
+
+.shadow{
+ position: absolute;
+ z-index: -1;
+ width: 100%;
+ height: 100%;
+ top: 0%;
+ background: rgb(101, 198, 247);
+  background: radial-gradient(circle, rgba(101, 198, 247, 0.7) 0%, rgba(252, 252, 252, 0.7) 7%, rgba(167, 93, 213, 0.7) 51%, rgba(0, 203, 255, 0.7) 72%, rgba(235, 80, 255, 0.7) 100%);
+}
+
+.tabs-panels {
+ min-height: 200px;
+ margin-top: 200px;
+}
+
+.tabs-panels ul {
+ margin: 0;
+ padding: 0;
+ opacity: .5;
+ margin-left: 2500px;
+}
+
+.tabs-panels ul li {
+ list-style-type: none;
+ display: inline-block;
+ background: lightblue;
+ margin: 0;
+ padding: 3px 10px;
+ border-radius: 10px 10px 0 0;
+ color: #111111;
+ font-weight: 200;
+ cursor: pointer;
+}
+
+.tabs-panels ul li:hover {
+ color: #fafafa;
+ background: blue;
+}
+
+.tabs-panels ul li.active {
+ color: #fafafa;
+ background: darkblue;
+}
+
+.tabs-panels .panel {
+ display: none;
+ background: lightcyan;
+ padding: 30px;
+ border-radius: 0 0 10px 10px;
+}
+
+.tabs-panels .panel.active {
+ display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
